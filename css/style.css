@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(34, 30, 30);
+    /* centrar elementos respecto al padre*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.main-container{
+    background-color: white;
+    width: 50%;
+    height: 45%;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1%;
+    width: 98%;
+}
+.title-container{
+    width: 100%;
+}
+.logo-container{
+    width: 100%;
+}
+
+img{
+    width: 20%;
+    height: auto;
+    margin: 3%;
+    float: right;
+}
+
+.body-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1%;
+    width: 98%;
+}
+
+.paragraph-container{
+    padding: 1%;
+}
+
+p{
+    text-align: justify;
+}
+
+.input-container{
+    padding: 1%;
+    float: left;
+    margin-left: 0%;
+    text-align: center; /* alinear elementos verticalmente dentro del contenedor*/
+
+}
+
+.input-form{
+    width: 90%;
+    padding: 1%;
+    margin-top: 20px;
+    padding-top: 3%;
+    border-color: rgb(92, 88, 88);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.footer-container{
+
+    text-align: center;
+}
+.send-button{
+    padding: 1%;
+    width: 35%;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    border: none;
+    background-color: rgb(199, 195, 195);
+}
